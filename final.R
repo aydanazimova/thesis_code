@@ -55,8 +55,8 @@ data <- data %>% mutate(device = str_replace_all(device, "Tablets", "2"))
 
 
 
-# Define your brand names
-brand_names <- c("dreamland", "graffiti", "imetec", "kidly", "bellissima", "spectrum" )
+# Define your brand names-the names have been hidden for privacy concerns
+brand_names <- c("" )
 # Define the function to find approximate matches
 
 # Use the agrep function to check for approximate matches
