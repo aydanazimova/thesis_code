@@ -7,7 +7,7 @@ library(dplyr)
 library(caret)
 library(ggplot2)
 
-data <- read.csv("C:/Users/Aydan/Desktop/for_jaccard.csv")
+data <- read.csv("C:/Users/Aydan/Desktop/data.csv")
 
 # Remove -- and NA values
 data <- data[-which(data$description == " --"),]
